@@ -25,8 +25,8 @@
                     wire:navigate>{{ __('Users') }}</flux:navlist.item>
 
                 {{-- Image gallery management --}}
-                <flux:navlist.item icon="photo" :href="route('galleries')" :current="request()->routeIs('galleries')"
-                    wire:navigate>{{ __('Gallery Management') }}</flux:navlist.item>
+                {{-- <flux:navlist.item icon="photo" :href="route('galleries')" :current="request()->routeIs('galleries')"
+                    wire:navigate>{{ __('Gallery Management') }}</flux:navlist.item> --}}
             </flux:navlist.group>
         </flux:navlist>
 
